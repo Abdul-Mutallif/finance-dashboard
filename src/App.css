@@ -2,6 +2,9 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 header {
@@ -69,7 +72,9 @@ header {
   grid-template-columns: 1fr;
   gap: 1.5rem;
   margin-bottom: 2rem;
+  min-width: 0;
 }
+.dashboard-grid > * { min-width: 0; }
 
 @media (min-width: 768px) {
   .dashboard-grid {
@@ -113,7 +118,9 @@ header {
   grid-template-columns: 1fr;
   gap: 1.5rem;
   margin-bottom: 2rem;
+  min-width: 0;
 }
+.charts-grid > * { min-width: 0; }
 
 @media (min-width: 1024px) {
   .charts-grid {
@@ -137,7 +144,9 @@ header {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
+  min-width: 0;
 }
+.content-grid > * { min-width: 0; }
 
 @media (min-width: 1024px) {
   .content-grid {
