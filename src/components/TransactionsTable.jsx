@@ -55,7 +55,7 @@ export default function TransactionsTable({ onOpenForm, onEditForm }) {
               placeholder="Search category..." 
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
-              style={{ paddingLeft: '35px', width: '200px' }}
+              style={{ paddingLeft: '35px', width: '100%', maxWidth: '300px', minWidth: '150px' }}
             />
           </div>
           
