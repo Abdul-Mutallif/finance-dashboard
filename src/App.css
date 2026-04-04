@@ -374,3 +374,22 @@ tbody tr:hover {
   border-top: 1px solid var(--border-color);
   margin-top: auto;
 }
+
+@media (max-width: 768px) {
+  header {
+    justify-content: center;  
+    align-items: center;       
+    text-align: center;
+  }
+
+  .logo {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .header-actions {
+    width: 100%;
+    margin-left: 0 !important; 
+    justify-content: center;
+  }
+}
