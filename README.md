@@ -22,7 +22,6 @@
 
 ---
 
-<img src="https://abdul-mutallif.github.io/finance-dashboard/" alt="FinanceFlow Dashboard Preview"/>
 
 ## ✨ Features
 
