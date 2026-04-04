@@ -22,7 +22,7 @@
 
 ---
 
-<img src="https://github.com/user-attachments/assets/c90be68d-8c11-4712-a72a-9cb8c1e4051b" width="100%" alt="FinanceFlow Dashboard Preview"/>
+<img src="https://abdul-mutallif.github.io/finance-dashboard/" alt="FinanceFlow Dashboard Preview"/>
 
 ## ✨ Features
 
